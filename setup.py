@@ -27,9 +27,10 @@ setup(
     install_requires=[
         'configparser',
         'sh',
-        'virtualenv',
+        'virtualenv==1.9.1',
         'yolk',
-        'zc.buildout',
+        'zc.buildout==1.7.1',
+        'setuptools==1.4.2'
     ],
     keywords="buildout pip plone virtualenv zope",
     license='Whatever license Plone is',
